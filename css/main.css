@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* Part header */
+header {
+    padding: 8px 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__logo-left a {
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+   
+}
+.header__right-links a {
+text-decoration: none;
+font-size: 15px;
+line-height: 24px;
+color: #000;
+margin-right: 32px;
+}
+.header__right-links .header__link-active {
+background: #00BAFC;
+border-radius: 5px;
+color: white;
+padding: 8px 16px;
+
+
+}
+
+header a:hover {
+    color: cornflowerblue;
+    transition-duration: 500ms;
+}
+
+.header__link-active:hover {
+background-color: #000;
+color: white;
+transition-duration: 1000ms;
+}
+
+/* Header the end. */
+
+/* Start hero__section */
+
+.hero__section {
+    margin-bottom: 58px;
+}
+
+.hero__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__left-section {
+    width: 40%;
+}
+
+.hero__left-section h2 {
+font-size: 30px;
+text-align: left;
+margin-bottom: 16px;
+}
+.hero__left-section p {
+    font-size: 16px;
+line-height: 24px;
+margin-bottom: 16px;
+}
+
+.hero__left-section a {
+    color: white;
+    background-color: #00BAFC;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius:5px ;
+    font-weight: 700;
+}
+.hero__left-section a:hover {
+    background-color: #000;
+    color: white;
+    transition-duration: 1000ms;
+}
+
+.hero__right-section {
+    width: 39%;
+}
+
+/* hero-section the end */
+
+/* start  services section */
+
+.services__section h2 {
+    font-size: 24px;
+    margin-bottom:16px;
+    text-align: center;
+}
+
+.services__section p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.servisec__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.servisec__list .Services__list-item {
+    padding: 24px;
+    margin-right: 70px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 320px;
+    height: 280px;
+    margin-bottom: 48px;
+}
+.servisec__list .Services__list-item h3 {
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.servisec__list .Services__list-item p {
+    font-size: 16px;
+}
+.services__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__link a {
+    text-decoration: none;
+    margin: 0 16px;
+}
+
+.first__service-link {
+    color: white;
+    background-color: #00BAFC;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.first__service-link:hover {
+    background-color: #000;
+    color: white;
+    transition-duration: 1000ms;
+}
+
+.second__service-link {
+    color: #00BAFC;
+    font-size: 16px;
+    
+}
+
+.second__service-link:hover {
+    color: black;
+    transition-duration: 1000ms;
+}
+
+.services__section {
+    margin-bottom: 100px;
+}
+
+/* The end Services section! */
+
+/* Start  Request box*/
+
+.Request__box h2 {
+text-align: center;
+font-size: 24px;
+margin-bottom: 16px;
+}
+
+.Request__box p {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+/*The end Request box */
+
+/* Start illustration box */
+
+.illustration__section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 45px;
+}
+
+.illust__right-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.illust__right-box p {
+    width: 493px;
+    font-size: 16px;
+}
+
+/* The end illustration box ;*/
+
+/* Start Examples box */
+
+.Examples__box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 45px;
+}
+.Example__left-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Example__left-box p {
+    font-size: 16px;
+}
+
+/* The end Example box */
+
+/* Start Timer__box */
+.Time__project-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 45px;
+}
+.Time__project-right h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Time__project-right p {
+    font-size: 16px;
+}
+/* Finish Timer box */
+
+.Order__box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 45px;
+}
+
+.Order__left-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Order__left-box p {
+    font-size: 16px;
+}
+
+/* the end Order section */
+
+/* Start  Support section */
+
+.Support__section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.Support__right-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Support__right-box p {
+    font-size: 16px;
+}
+
+/* The end Support section! */
+
+.working__list-box {
+    text-align: center;
+    margin-bottom: 55px;
+}
+.working__list-box a {
+    background-color: #00BAFC;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.working__list-box a:hover {
+    background-color: #000;
+    color: white;
+    transition-duration: 1000ms;
+}
+/* The end working section */
+
+/* Start forms */
+.form__section {
+    background-color: #00BAFC;
+    padding: 60px 0;
+}
+.form__box h3 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: white;
+    font-size: 24px;
+}
+
+.form__box p {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 25px;
+}
+.form__box form {
+    text-align: center;
+    background-color: white;
+    width: 370px;
+    margin: 0 auto;
+    height: 305px;
+    border-radius: 5px;
+}
+.form__box form input,select {
+padding: 16px;
+width: 300px;
+height: 56px;
+border: none;
+margin: 14px 0;
+background: #F3F3F3;
+border-radius: 5px;
+}
+.form__box button {
+    background-color: #00BAFC;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+.form__box button:hover {
+    background-color: #000;
+    color: white;
+    transition-duration: 500ms;
+}
+/* the end forms */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 56px 0;
+}
+.footer__box {
+    display: flex;
+}
+
+.first__footer-box h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.first__footer-box p {
+    width:330px;
+    margin-right: 100px;
+}
+
+.second__footer-box h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin-right: 87px;
+}
+
+.second__footer-box ul {
+    text-align: left;
+    list-style-type: none;
+}
+.second__footer-box ul li a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.third__second-box h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+
+}
+.third__second-box ul  {
+    list-style-type: none;
+
+}
+.third__second-box ul li a {
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.third__second-box a img {
+    margin-right: 8px;
+}
+
+.footer__box a:hover {
+    color: #00BAFC;
+    transition-duration: 1000ms;
+}
+
